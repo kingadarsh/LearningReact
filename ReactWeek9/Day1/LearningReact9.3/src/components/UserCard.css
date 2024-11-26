@@ -1,0 +1,30 @@
+.UserContainer{
+    background-color:#ffbe76 ;
+    padding: 25px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap:1.5rem;
+    border-radius:20%;
+
+    
+}
+
+#UserImg{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#UserName{
+    font-size: x-large;
+    color: black;
+    padding-top:20px ;
+}
+#UserDesc{
+    font-size: x-large;
+    color: black;
+}
