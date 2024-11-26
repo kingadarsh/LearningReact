@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+body {
+    background-color: #2d3436;  /* Body background color */
+    display: flex;             
+    justify-content: center;     
+    align-items: center;         
+    height: 100vh;               
+    margin: 0;                   /* Remove any default body margin */
+}
+
+.CounterContainer {
+    background-color: #81ecec;  /* Counter container background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;               /* Padding inside the container */
+    border-radius: 8px;          /* Optional: border radius for rounded corners */
+    width: 350px;
+    height: 200px;
+    gap: 40px;
+    font-size: 28px;
+}
+
+#ButtonCounter{
+    width: 80px;
+    height: 30px;
+    background-color: #0984e3;
+    color: white;
+    border:none;
+    border-radius: 5px;
+}
