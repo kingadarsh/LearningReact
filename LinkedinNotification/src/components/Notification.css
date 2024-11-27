@@ -1,0 +1,32 @@
+.Container {
+    position: relative; 
+    width: fit-content; /* Ensure the container adapts to its content size */
+  }
+  
+  #bell {
+    width: 50px; /* Adjust as per your design */
+    height: 50px; /* Adjust as per your design */
+  }
+
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #Ball {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+  
